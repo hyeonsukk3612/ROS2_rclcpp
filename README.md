@@ -59,6 +59,8 @@ https://www.youtube.com/watch?v=iJncwlF0ngE
 
  예제 1 번과 같이 ROS 2 명령어로 실행 결과를 확인하라
 
+ros2 run pub2-1 pub2_1
+
 과제 2번 pub2-2
 
  예제 1 번을 수정하여 키보드로부터 실수값 3 개를 입력받아 퍼블리시하는 패키지 pub 2 2 를 작성하시오
@@ -72,6 +74,8 @@ https://www.youtube.com/watch?v=iJncwlF0ngE
  CMakeLists txt 의 add_executables 명령에서 의존 패키지를 std_msgs 에서 geometry_msgs 으로 수정해야함
 
  예제 1 번과 같이 ROS 2 명령어로 실행 결과를 확인하라
+
+ros2 run pub2-2 pub2_2
 
 과제 3번 pub2-3
 
@@ -88,6 +92,8 @@ https://www.youtube.com/watch?v=iJncwlF0ngE
  CMakeLists txt 의 add_executables 명령에서 의존 패키지를 std_msgs 에서 geometry_msgs 으로 수정해야함
 
  turtlesim (subscriber 역할수행 노드를 실행하고 테스트 할 것
+
+ros2 run pub2_3 pub_node
 
 ***
 
