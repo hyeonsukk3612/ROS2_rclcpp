@@ -93,6 +93,8 @@ ros2 run pub2-2 pub2_2
 
  turtlesim (subscriber 역할수행 노드를 실행하고 테스트 할 것
 
+ros2 run turtlesim turtlesim_node
+
 ros2 run pub2_3 pub_node
 
 ***
