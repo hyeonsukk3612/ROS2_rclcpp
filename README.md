@@ -95,7 +95,7 @@ ros2 run pub2-2 pub2_2
 
 ros2 run turtlesim turtlesim_node
 
-ros2 run pub2_3 pub_node
+ros2 run pub2-3 pub_node
 
 실제 코드 실행 영상입니다.
 
