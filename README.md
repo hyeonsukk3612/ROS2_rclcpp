@@ -99,7 +99,7 @@ ros2 run pub2_3 pub_node
 
 실제 코드 실행 영상입니다.
 
-https://youtu.be/KqpjBvSP1h8
+[https://youtu.be/KqpjBvSP1h8](https://youtu.be/RRTZqxjMEdc)
 
 ***
 
