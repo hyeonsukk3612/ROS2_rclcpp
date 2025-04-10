@@ -49,3 +49,48 @@
 https://www.youtube.com/watch?v=iJncwlF0ngE
 
 ***
+
+과제 1번 pub2-1
+
+ 예제 1 번을 수정하여 문자열 대신에 정수값을 0 으로 초기화하고 1씩 증가시키면서 퍼블리시하는 패키지 pub 2 1 를 작성하시오
+
+ 토픽 메시지 인터페이스는 std_msgs /msg/Int 32 을 사용할 것 11 페이지 참고
+
+ 소스파일작성시 헤더파일명과 클래스명을 수정해야함
+
+ 예제 1 번과 같이 ROS 2 명령어로 실행 결과를 확인하라
+
+과제 2번 pub2-2
+
+ 예제 1 번을 수정하여 키보드로부터 실수값 3 개를 입력받아 퍼블리시하는 패키지 pub 2 2 를 작성하시오
+
+ 토픽 메시지 인터페이스는 geometry_msgs /msg/Vector 3 을 사용할것 11 페이지 참고
+
+ 패키지 생성시 의존패키지에서 std_msgs 를 geometry_msgs 으로 수정해야함
+
+ 소스파일작성시 헤더파일명과 클래스명을 수정해야함
+
+ CMakeLists txt 의 add_executables 명령에서 의존 패키지를 std_msgs 에서 geometry_msgs 으로 수정해야함
+
+ 예제 1 번과 같이 ROS 2 명령어로 실행 결과를 확인하라
+
+과제 3번 pub2-3
+
+ Turtlesim 패키지의 teleop_turtle 노드를 대신하는 패키지 pub 2 3 를 작성하라
+
+ 거북이의 선속도와 각속도를 적당한 값으로 전송하여 거북이가 일정한 반경으로 무한히 회전하도록 /turtle 1 cmd_vel 토픽을 발행할 것
+
+ geometry_msgs /msg/Twist 를 사용할 것 11 페이지 참고
+
+ 패키지 생성시 의존패키지에서 std_msgs 를 geometry_msgs 으로 수정해야함
+
+ 소스파일작성시 헤더파일명과 클래스명을 수정해야함
+
+ CMakeLists txt 의 add_executables 명령에서 의존 패키지를 std_msgs 에서 geometry_msgs 으로 수정해야함
+
+ turtlesim (subscriber 역할수행 노드를 실행하고 테스트 할 것
+
+***
+
+
+
